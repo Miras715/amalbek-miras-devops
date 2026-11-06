@@ -3,3 +3,7 @@
 Laboratory work 1: Linux, Git, GitHub, Docker and Jenkins.
 
 Student: Miras Amalbek, group IT2-2313, ID 37270
+
+Endpoints:
+- / shows student information
+- /health returns OK (for checks)
