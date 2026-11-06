@@ -1,0 +1,12 @@
+services:
+  app:
+    build: .
+    image: amalbek-miras-devops
+    container_name: amalbek-miras-container
+    ports:
+      - "8090:8080"
+    environment:
+      STUDENT_NAME: Miras
+      STUDENT_SURNAME: Amalbek
+      STUDENT_GROUP: IT2-2313
+      STUDENT_ID: "37270"
